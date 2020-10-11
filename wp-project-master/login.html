@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="wp-project-master\validate.js"></script>
+    <script type="text/javascript">
+        {
+            function fn1()
+            {
+                window.location.assign("regestration.html");
+            }
+            function fn2()
+            {
+                window.location.assign("contact us.html");
+            }
+            function fn3()
+            {
+                window.location.assign("home.html")
+            }
+            function fn4()
+            {
+                window.location.assign("opportunities.html")
+            }
+        }
+    </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Verdana;
+        }
+        body{
+            width: 100%;
+            height: 80vh;
+            background: url(nitsurat2.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            overflow-x: hidden;
+        }
+        .login-box{
+            width:400px;
+            height: 500px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            top:60%;
+            left:50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            box-sizing: border-box;
+            padding: 70px 30px;
+        }
+        .avatar{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top:-50px;
+            left:150px;
+        }
+        h1{
+            margin: 0;
+            padding: 0 0 20px;
+            text-align: center;
+            font-size: 35px;
+        }
+        .login-box p{
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .login-box input{
+            width: 100px;
+            margin-bottom: 40px;
+        }
+        .login-box input[type="text"], input[type="password"]
+        {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            width: 340px;
+            color: white;
+            font-size: 16px;
+        }
+        .login-box input[type="submit"]
+        {
+            width: 340px;
+            border: none;
+            outline: none;
+            height: 40px;
+            background: #1c8adb;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 20px;
+        }
+        .login-box input:hover[type="submit"]
+        {
+            cursor: pointer;
+        }
+        .login-box a{
+            text-decoration: none;
+            font-size: 14px;
+            color: #fff;
+        }
+        #main{
+            width: 140%;
+            height: 100vh;
+        }
+        img{
+            float: left;
+            opacity: 0.7;
+        }
+        nav{
+            width: 100%;
+            height: 80px;
+            background-color: #0009;
+            line-height: 70px;
+            padding-bottom: 40px;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            transition: 0.8s all;
+        }
+        nav ul li:hover{
+            background-color: #f39d1a;
+        }
+        nav ul{
+            float:left;
+            visibility: visible;
+            margin: 30px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 60px;
+            font-size: 28px;
+        }
+        @media only screen and (max-width: 1050px){
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: Verdana;
+            }
+            body{
+                width: 100%;
+                height: 80vh;
+                background: url(nitsurat2.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                overflow-x: hidden;
+            }
+            .login-box{
+                width:500px;
+                margin-left: 5%;
+                margin-right: 5%;
+                height: 500px;
+                margin-top: 250px;
+                background: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                top:60%;
+                left:50%;
+                position: absolute;
+                transform: translate(-50%,-50%);
+                box-sizing: border-box;
+                padding: 70px 30px;
+            }
+            .avatar{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                position: absolute;
+                top:-50px;
+                left:40%;
+            }
+            h1{
+                margin: 0;
+                padding: 0 0 20px;
+                text-align: center;
+                font-size: 30px;
+            }
+            .login-box p{
+                margin: 0;
+                padding: 0;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            .login-box input{
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .login-box input[type="text"], input[type="password"]
+            {
+                border: none;
+                border-bottom: 1px solid #fff;
+                background: transparent;
+                outline: none;
+                height: 40px;
+                width: 100%;
+                color: white;
+                font-size: 16px;
+            }
+            .login-box input[type="submit"]
+            {
+                width: 100%;
+                border: none;
+                outline: none;
+                height: 40px;
+                background: #1c8adb;
+                color: #fff;
+                font-size: 18px;
+                border-radius: 20px;
+            }
+            .login-box input:hover[type="submit"]
+            {
+                cursor: pointer;
+            }
+            .login-box a{
+                text-decoration: none;
+                font-size: 14px;
+                color: #fff;
+            }
+            #main{
+                width: 140%;
+                height: 100vh;
+            }
+            img{
+                float: left;
+                opacity: 0.7;
+                width: 100%;
+            }
+            nav{
+                width: 100%;
+                height: 250px;
+                background-color: #0009;
+                line-height: 60px;
+                padding-bottom: 40px;
+            }
+            nav ul li{
+                list-style-type: none;
+                display: inline-block;
+                transition: 0.8s all;
+                width: 40%;
+                margin-bottom: 4px;
+                text-align: center;
+            }
+            nav ul li:hover{
+                background-color: #f39d1a;
+            }
+            nav ul{
+                float:left;
+                visibility: visible;
+                margin: 30px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+                padding: 60px;
+                font-size: 28px;
+            }    
+        }
+        @media only screen and (max-width: 600px){
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: Verdana;
+            }
+            body{
+                width: 100%;
+                height: 80vh;
+                background: url(nitsurat2.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+            }
+            #main{
+                width: 150%;
+                height: 100vh;
+            }
+            img{
+                float: left;
+                opacity: 0.7;
+                width: 100%;
+            }
+            nav{
+                width: 100%;
+                height: 350px;
+                background-color: #0009;
+                line-height: 50px;
+                padding-bottom: 40px;
+            }
+            nav ul li{
+                list-style-type: none;
+                transition: 0.8s all;
+                width: 80%;
+                margin-left: 10%;
+                text-align: center;
+                margin-bottom: 3px;
+            }
+            nav ul li:hover{
+                background-color: #f39d1a;
+            }
+            nav ul{
+                float:left;
+                visibility: visible;
+                margin: 30px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+                padding: 60px;
+                font-size: 28px;
+            }
+            .login-box{
+                width:100%;
+                height: 350px;
+                margin-top: 300px;
+                background: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                top:60%;
+                left:50%;
+                position: absolute;
+                transform: translate(-50%,-50%);
+                box-sizing: border-box;
+                padding: 70px 30px;
+            }
+            .avatar{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                position: absolute;
+                top:-50px;
+                left:40%;
+            }
+            h1{
+                margin: 0;
+                padding: 0 0 20px;
+                text-align: center;
+                font-size: 25px;
+            }
+            .login-box p{
+                margin: 0;
+                padding: 0;
+                font-weight: bold;
+                font-size: 15px;
+                margin-left: 10%;
+            }
+            .login-box input{
+                margin-left: 10%;
+                width: 80%;
+                margin-bottom: 20px;
+            }
+            .login-box input[type="text"], input[type="password"]
+            {
+                border: none;
+                border-bottom: 1px solid #fff;
+                background: transparent;
+                outline: none;
+                height: 20px;
+                width: 80%;
+                color: white;
+                font-size: 16px;
+            }
+            .login-box input[type="submit"]
+            {
+                width: 80%;
+                border: none;
+                outline: none;
+                height: 40px;
+                background: #1c8adb;
+                color: #fff;
+                font-size: 18px;
+                border-radius: 20px;
+            }
+            .login-box input:hover[type="submit"]
+            {
+                cursor: pointer;
+            }
+            .login-box a{
+                text-decoration: none;
+                font-size: 14px;
+                color: #fff;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>registration</title>
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <img src="internship2.png" width="300" height="120">
+        <ul>
+            <li onclick="fn3()"><a href="#">Home</a></li>
+            <li onclick="fn4()"><a href="#">Opportunities</a></li>
+            <li onclick="fn1()" style="background-color: #f39d1a; opacity: 0.7"><a href="#">Registration</a></li>
+            <li onclick="fn2()"><a href="#">Contact us</a></li>
+        </ul>
+        </nav>
+    <div class="login-box">
+        <img src="loginimage.png" class="avatar">
+        <h1> Login here </h1>
+        <form onsubmit="return validate()" method="POST" action="login.php">
+            <p>Username</p>
+            <input type="text" name="1loginid" placeholder="enter username" id="uname">
+            <p>Password</p>
+            <input type="password" name="1password" placeholder="enter password" id="pass">
+            <br>
+            <input type="submit" name="submit" value="Login">
+            <br>
+            <a href="#"><u>Forgot password?</u></a>
+           </form>
+    </div>
+    </div>
+</body>
+</html>

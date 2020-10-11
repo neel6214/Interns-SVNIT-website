@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="C:\Users\hp\Downloads\wp-project-master 2\wp-project-master\wp-project-master\wp-project-master\validate.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Verdana;
+        }
+        body{
+            width: 100%;
+            height: 80vh;
+            background: url(nitsurat2.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        #main{
+            width: 150%;
+            height: 100vh;
+        }
+        img{
+            float: left;
+            opacity: 0.7;
+        }
+        nav{
+            width: 100%;
+            height: 80px;
+            background-color: #0009;
+            line-height: 70px;
+            padding-bottom: 40px;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            transition: 0.8s all;
+        }
+        nav ul li:hover{
+            background-color: #f39d1a;
+        }
+        nav ul{
+            float:left;
+            visibility: visible;
+            margin: 30px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 60px;
+            font-size: 28px;
+        }
+        #opportunities{
+            float:left;
+            color: black;
+            font-size: 30px;
+            opacity: 0.8;
+            line-height: 50px;
+            width: 60%;
+        }
+        @media only screen and (max-width:980px){
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: Verdana;
+            }
+            body{
+                width: 100%;
+                height: 80vh;
+                background: url(nitsurat2.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+            }
+            #main{
+                width: 150%;
+                height: 100vh;
+            }
+            img{
+                float: left;
+                opacity: 0.7;
+                width: 100%;
+            }
+            nav{
+                width: 100%;
+                height: 250px;
+                background-color: #0009;
+                line-height: 60px;
+                padding-bottom: 40px;
+            }
+            nav ul li{
+                list-style-type: none;
+                display: inline-block;
+                width: 40%;
+                transition: 0.8s all;
+                margin-bottom: 5px;
+                text-align: center;
+            }
+            nav ul li:hover{
+                background-color: #f39d1a;
+            }
+            nav ul{
+                float:left;
+                visibility: visible;
+                margin: 30px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+                padding: 60px;
+                font-size: 28px;
+            }
+            #opportunities{
+                float:left;
+                color: black;
+                font-size: 25px;
+                opacity: 0.8;
+                line-height: 50px;
+                width: 60%;
+            }
+            #pdf{
+                width: 60px;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+            #regis{
+                width: 100px;
+                margin-left: 40%;
+            }
+        }
+        @media only screen and (max-width:600px){
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: Verdana;
+            }
+            body{
+                width: 100%;
+                height: 80vh;
+                background: url(nitsurat2.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+            }
+            #main{
+                width: 150%;
+                height: 100vh;
+            }
+            img{
+                float: left;
+                opacity: 0.7;
+                width: 100%;
+            }
+            nav{
+                width: 100%;
+                height: 350px;
+                background-color: #0009;
+                line-height: 50px;
+                padding-bottom: 40px;
+            }
+            nav ul li{
+                list-style-type: none;
+                transition: 0.8s all;
+                width: 80%;
+                margin-left: 10%;
+                text-align: center;
+                margin-bottom: 3px;
+            }
+            nav ul li:hover{
+                background-color: #f39d1a;
+            }
+            nav ul{
+                float:left;
+                visibility: visible;
+                margin: 30px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+                padding: 60px;
+                font-size: 28px;
+            }
+            #opportunities{
+                float:left;
+                color: black;
+                font-size: 20px;
+                opacity: 0.8;
+                line-height: 35px;
+                width: 60%;
+            }
+            #pdf{
+                width: 50px;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+            #regis{
+                width: 80px;
+                margin-left: 40%;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Internship at SVNIT</title>
+</head>
+<body>
+        <div id="main">
+            <nav>
+                <img src="internship2.png" width="300" height="120">
+            <ul>
+                <li onclick="fn3()"><a href="#">Home</a></li>
+                <li onclick="fn4()" style="background-color: #f39d1a; opacity: 0.9"><a href="#">Opportunities</a></li>
+                <li onclick="fn1()"><a href="#">Registration</a></li>
+                <li onclick="fn2()"><a href="#">Contact us</a></li>
+            </ul>
+            </nav>
+            <div id="opportunities">
+                We have many opportunities for those students who want to work abroad. Many former students of SVNIT have taken this opportunities and improved their 
+                skills by working with them. <br><br>
+                Many students prefer internship in our own country so we also provide many opportunities for the best experience of internship in India.<br>
+                We have many tie-ups with multinational companies which increases the opportunities for our students.
+                Here we have list and eligibility criteria in the below document.<br>
+                <p style="font-size: 20px;">click on the pdf icon to open it</p><a href="opportunities.pdf" target="blank"><img src="pdf.png" alt="click here to open pdf" id="pdf" width="60px" style="margin-left: 20px; margin-top: 10px;"></a><br><br>
+                <p>For notifications and to get new information about internship program register now on our web-site.</p>
+                <a href="regestration.html"><img src="regestration.png" alt="click for regestration" id="regis" width="100px" style="margin-left: 40%;"></a>
+            </div>
+            
+        </div>
+</body>
+
+</html>
